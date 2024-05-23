@@ -3,11 +3,14 @@ html, body {
     padding: 0;
 }
 
-h1 {
+.header {
     background-color: black;
     color: white;
+    font-size: 40px;
+    font-weight: bold;
     padding: auto;
+    height: 50px;
     margin: 0;
     border: 0;
-    height: ;
+    text-align: center;
 }

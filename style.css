@@ -1,5 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     background-color: black;
     color: white;
     padding: auto;
+    margin: 0;
+    border: 0;
+    height: ;
 }

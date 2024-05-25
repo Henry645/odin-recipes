@@ -15,13 +15,15 @@ html, body {
     text-align: center;
 }
 
-.recipe_container {
+.recipe-flex-container {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
-a {
+.recipe-flex-container div {
     border: 1px solid darkblue;
     padding: 5px;
     margin: 10px;
@@ -37,4 +39,9 @@ a {
     border: 5px;
     border-color: black;
     padding: 5px; */
+}
+
+.recipe-flex-container div a {
+    color: white;
+    text-decoration: none;
 }
